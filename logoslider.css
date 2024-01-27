@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header{
+  background-color:black;
+  color:white;
+  padding: 15px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  scroll-behavior: smooth; 
+}
+.logo-slider {
+   width: 80%;
+   margin: auto;
+   position: relative;
+}
+
+.logos {
+  display: flex;
+}
+.logos div{
+  margin: 0 10px;
+}
+
+.logos img {
+  width: 100px; /* Set the width of your logos */
+  height: auto;
+}
+footer{
+  background-color:black;
+  color:white;
+  text-align: center;
+  padding: 3px;
+}
